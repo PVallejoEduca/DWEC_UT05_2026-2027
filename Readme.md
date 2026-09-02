@@ -1,3 +1,5 @@
+![Portada de DWEC - UT05](./assets/repo-cover-dwec-2026-2027.png)
+
 # DWEC UT05: Introducción a los frameworks: React.
 Apuntes del módulo de DWEC del ciclo de grado superior de DAW.
 
@@ -19,4 +21,3 @@ Recopilados, resumidos y traducidos de otros apuntes disponibles en la red:
 * MDN React - [Enlace](https://developer.mozilla.org/es/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#tutoriales_de_react)
 * Módulos - [Enlace](https://lenguajejs.com/javascript/#modulos)
 * Desarrollo Útil - [Enlace](https://www.youtube.com/@DesarrolloUtil/featured)
-
