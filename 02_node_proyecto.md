@@ -46,7 +46,7 @@ Para instalar node ve a [nodejs.org](https://nodejs.org/en) e instala la última
 
 En el caso de que no tengamos node instalado en nuestro sistema, se nos mostrará un mensaje de error como `node: command not found` o similar, en cuyo caso deberemos proceder a instalarlo.
 
-En este primer contacto vamos a repasar el **scaffolding** (estructura de carpetas) de un proyecto de frontend y como crear desde cero un proyecto con NPM.
+En este primer contacto vas a repasar el **scaffolding** (estructura de carpetas) de un proyecto de frontend y como crear desde cero un proyecto con NPM.
 
 ### Inicializar un proyecto
 
@@ -66,7 +66,7 @@ Algunos consejos sobre los nombres de directorios para proyectos:
 * No utilices espacios en el nombre. Usa guiones en su lugar.
 * Evita el uso de carácteres especiales, signos de puntuación, etc...
 
-Una vez en la carpeta raíz del proyecto, sería una buena idea preparar `git` con un `git init` para llevar el control de versiones del proyecto cuanto antes. También sería un buen momento para crear un archivo `.gitignore`, que indique las carpetas que vamos a ignorar con `git`. La carpeta **node_modules/** debe estar obligatoriamente en dicho fichero.
+Una vez en la carpeta raíz del proyecto, sería una buena idea preparar `git` con un `git init` para llevar el control de versiones del proyecto cuanto antes. También sería un buen momento para crear un archivo `.gitignore`, que indique las carpetas que vas a ignorar con `git`. La carpeta **node_modules/** debe estar obligatoriamente en dicho fichero.
 
 Una vez hecho esto, inicializamos el proyecto con NPM, escribiendo `npm init -y`. Esto creará un fichero llamado `package.json` del que hablaremos más adelante y que contendrá toda la información del proyecto:
 
@@ -76,7 +76,7 @@ Una vez hecho esto, inicializamos el proyecto con NPM, escribiendo `npm init -y`
 
 El parámetro `-y` de `npm init` omite el asistente interactivo, creando el `package.json` con los valores por defecto directamente y sin preguntarnos. Si prefieres utilizar el asistente, omite ese parámetro.
 
-Os dejo un video donde explica con ejemplos muy sencillos como instalar y utilizar algunas librerias en un proyecto sencillo. Además, explica la diferencia entre dependencias y dependencias de desarrollo.
+Te dejo un video donde explica con ejemplos muy sencillos como instalar y utilizar algunas librerias en un proyecto sencillo. Además, explica la diferencia entre dependencias y dependencias de desarrollo.
 
 <p align="center"> 
 <a href="https://www.youtube.com/watch?v=7HTfEG_sj9s">
@@ -113,7 +113,7 @@ Comparando Bundlers (Empaquetadores) de JavaScript</a>
 
 ### CRA (create-react-app)
 
-Vamos a hacer una breve mención a `create-react-app` ya que ha sido durante mucho tiempo el comando por excelencia para iniciar proyecto con React. Hoy en día los desarrolladores de React [ya no lo recomiendan](https://www.youtube.com/watch?v=h1WLN9Gzbwc) y ademas han dejado de actualizarla, pero si alguien quiere probarlo para ver el funcionamiento aqui tiene el enlace a la documentación antigua del proyecto de React ([enlace](https://create-react-app.dev/docs/getting-started))
+Antes de continuar, conocerás brevemente `create-react-app` ya que ha sido durante mucho tiempo el comando por excelencia para iniciar proyecto con React. Hoy en día los desarrolladores de React [ya no lo recomiendan](https://www.youtube.com/watch?v=h1WLN9Gzbwc) y ademas han dejado de actualizarla, pero si quieres probarlo para ver su funcionamiento, aquí tienes el enlace a la documentación antigua del proyecto de React ([enlace](https://create-react-app.dev/docs/getting-started))
 
 <p align="center"> 
 <img src="./img/create-react-app.jpg" width="60%" height="60%" style="display: block; margin: 0 auto" />
@@ -121,7 +121,7 @@ Vamos a hacer una breve mención a `create-react-app` ya que ha sido durante muc
 
 ### Vite
 
-En su lugar vamos a utilizar Vite (palabra en francés para "rápido", pronunciado como /vit/ como "veet") es una herramienta de compilación que tiene como objetivo proporcionar una experiencia de desarrollo más rápida y ágil para proyectos web modernos. Consta de dos partes principales:
+En su lugar vas a utilizar Vite (palabra en francés para "rápido", pronunciado como /vit/ como "veet"), una herramienta de compilación que tiene como objetivo proporcionar una experiencia de desarrollo más rápida y ágil para proyectos web modernos. Consta de dos partes principales:
 
 * Un servidor de desarrollo que proporciona mejoras enriquecidas de funcionalidades sobre módulos ES nativos, por ejemplo Hot Module Replacement (HMR) extremadamente rápido.
 

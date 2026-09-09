@@ -205,7 +205,7 @@ Además, agregaremos otro botón que nos resetee la cuenta que lleva el contador
 </Button>
 ```
 
-Por lo general, definir controladores de eventos dentro de las plantillas JSX no es una buena idea. Aquí está bien, porque nuestros controladores de eventos son muy simples. Vamos a separar a los controladores de eventos en funciones separadas de todas formas.
+Por lo general, definir controladores de eventos dentro de las plantillas JSX no es una buena idea. Aquí está bien, porque nuestros controladores de eventos son muy simples. Vas a separar a los controladores de eventos en funciones separadas de todas formas.
 
 ```jsx
 const App = () => {
@@ -254,7 +254,7 @@ Cuando se hace **clic** en uno de los botones, se ejecuta el controlador de even
 
 Entonces, si un usuario hace **clic** en el botón `plus`, el controlador de eventos del botón cambia el valor de `counter` a `1`, y el componente `App` se vuelve a generar. Esto hace que sus subcomponentes `Display` y `Button` también se vuelvan a renderizar. `Display` recibe el nuevo valor del contador, `1`, como `prop`. Los componentes `Button` reciben controladores de eventos que pueden usarse para cambiar el estado del contador.
 
-Para asegurarnos de entender como funciona el programa, vamos a agregarle algunos `console.log`
+Para comprobar que entiendes cómo funciona el programa, vas a agregarle algunos `console.log`
 
 ```jsx
 const App = () => {
@@ -284,4 +284,4 @@ const App = () => {
   )
 }
 ```
-> Para pobrar este ejemplo debereis crear los componentes `Button` y `Display`. Tambien, podeis sustituirlos por elementos HTML básicos.
+> Para probar este ejemplo deberás crear los componentes `Button` y `Display`. Tambien, puedes sustituirlos por elementos HTML básicos.

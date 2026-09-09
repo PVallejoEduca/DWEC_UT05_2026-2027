@@ -87,7 +87,7 @@ De esta manera si quisieramos hacer algún cambio en el avatar, solo tendríamos
 
 ## Utilizando React para crear componentes
 
-Para entender como funciona React entre bambalinas vamos a utilizarlo de una manera poco ortodoxa (y de hecho no recomendada) pero nos servirá para asentar los conceptos. Seguiremos los pasos que nos indica en la documentación de React ([enlace](https://es.legacy.reactjs.org/docs/add-react-to-a-website.html)). Aunque haremos algunos cambios y no lo seguiremos tal cual aparece allí.
+Para entender como funciona React entre bambalinas vas a utilizarlo de una manera poco ortodoxa (y de hecho no recomendada) pero te servirá para asentar los conceptos. Seguirás los pasos de la documentación de React ([enlace](https://es.legacy.reactjs.org/docs/add-react-to-a-website.html)). Aunque harás algunos cambios y no seguirás el ejemplo tal cual aparece allí.
 
 > CUIDADO!! Esta pagina de documentación esta ya sustituida por otra, solo la estamos utilizando para entender el concepto de como podemos utilizar React de la manera en la que estamos acostumbrados a desarrollar HTML, JS y CSS.
 
@@ -117,14 +117,14 @@ const root = ReactDOM.createRoot(app)
 root.render(r(Avatar, { id: 6 }))
 ```
 
-Vamos a entender paso a paso lo que estamos haciendo:
+Descubre paso a paso lo que estás haciendo:
 1. Asignamos a una variable `r` el metodo de `CreateElement` de la biblioteca de React.
-2. Utilizaremos este método en 2 ocasiones:
+2. Utilizarás este método en 2 ocasiones:
  - Cuando creamos el elemento/componente `img`. En este caso es un componente estandar HTML.
  - Cuando hacemos uso del método `render` de ReactDOM. En este caso es un componente personalizado por nosotros, que tiene de nombre `Avatar`.
 3. El método `render` es el encargado de renderizar nuestros componentes en el lugar que le indiquemos de la pagina web. En este caso utilizamos la variable `app` que contiene el elemento `div`.
 
-Pero de esta manera todavia nos quedarian crear el resto de componentes que teníamos en la anterior versión (picture, h3, ...). Además, solo tenemos una persona renderizada, para poder reutilizar el componente utilizaremos el tercer parametro de la siguiente forma.
+Pero de esta manera todavia nos quedarian crear el resto de componentes que teníamos en la anterior versión (picture, h3, ...). Además, solo tenemos una persona renderizada, para poder reutilizar el componente utilizarás el tercer parametro de la siguiente forma.
 
 ```js
 const Avatar = params => {
@@ -143,9 +143,9 @@ Como veis esto empieza a no ser comodo para trabajar. Pero aquí entra **JSX** a
 
 **JSX** es una extensión de sintaxis para JavaScript que permite escribir marcado similar a HTML dentro de una archivo JavaScript. Aunque hay otras formas de escribir componentes, la mayoría de los desarrolladores de React prefieren la concisión de JSX, y la mayoría de las bases de código lo usan.
 
-Como ya sabemos nuestros navegadores solo entienden JavaScript puro, es por eso, que necesitaremos algo que nos traduzca esta sintaxis nueva que vamos a utilizar para que el navegador entienda correctamente que es lo que queremos hacer. Ahí es donde entra en juego los transpiladores como `Babel` ([enlace](https://babeljs.io/)).
+Como ya sabemos nuestros navegadores solo entienden JavaScript puro, es por eso, que necesitaremos algo que nos traduzca esta sintaxis nueva que vas a utilizar para que el navegador entienda correctamente que es lo que queremos hacer. Ahí es donde entra en juego los transpiladores como `Babel` ([enlace](https://babeljs.io/)).
 
-Vamos a comparar el fragmento que devolvia solo el `img` de antes y compararlo con como sería con JSX.
+Vas a comparar el fragmento que devolvía solo el `img` con su versión en JSX.
 
 ```js
 const r = React.createElement

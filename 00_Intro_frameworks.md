@@ -1,6 +1,6 @@
 # DWEC UT05: Introducción a los frameworks: React.
 
-Comenzaremos nuestro repaso a los frameworks con una visión general del área, una breve historia de JavaScript y los frameworks, por qué existen los frameworks y qué nos aportan, cómo empezar a pensar en la elección de un framework para aprender y qué alternativas hay a los frameworks del lado del cliente.
+Comenzarás tu repaso a los frameworks con una visión general del área, una breve historia de JavaScript y los frameworks, por qué existen los frameworks y qué nos aportan, cómo empezar a pensar en la elección de un framework para aprender y qué alternativas hay a los frameworks del lado del cliente.
 
 ## Breve historia de JavaScript
 

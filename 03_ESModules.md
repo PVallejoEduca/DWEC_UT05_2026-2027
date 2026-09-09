@@ -22,18 +22,18 @@ Para trabajar con módulos tenemos a nuestra disposición las siguientes palabra
 * `import`    - Incorpora datos (variables, funciones, clases...) desde otros ficheros `.js` al código actual.
 * `import()`  - Permite importar módulos de forma más flexible, en tiempo real (imports dinámicos).
 
-Mediante la palabra clave `export` crearemos lo que se llama un módulo de exportación que contiene datos. Estos datos pueden ser variables, funciones, clases u objetos más complejos (a partir de ahora, elementos). Si dicho módulo ya existe, podremos ir añadiendo más propiedades.
+Mediante la palabra clave `export` crearás lo que se llama un módulo de exportación que contiene datos. Estos datos pueden ser variables, funciones, clases u objetos más complejos (a partir de ahora, elementos). Si dicho módulo ya existe, podrás ir añadiendo más propiedades.
 
 Por otro lado, con la palabra clave `import` podremos leer dichos módulos exportados desde otros ficheros y utilizar sus elementos en el código de nuestro fichero actual.
 
-Veamos un ejemplo sencillo para ver el funcionamiento de `import` y `export` en su modo más básico. Tenemos un fichero `constants.js` donde vamos a exportar una constante numérica.
+Veamos un ejemplo sencillo para ver el funcionamiento de `import` y `export` en su modo más básico. Tenemos un fichero `constants.js` donde vas a exportar una constante numérica.
 
 ```js
 // Fichero constants.js
 export const magicNumber = 42;
 ```
 
-Por otro lado, en el fichero `index.js`, vamos a traernos esa constante numérica para utilizarla en el fichero actual.
+Por otro lado, en el fichero `index.js`, vas a importar esa constante numérica para utilizarla en el fichero actual.
 
 ```js
 // Fichero index.js
@@ -42,7 +42,7 @@ import { magicNumber } from "./constants.js";
 console.log(magicNumber);   // 42
 ```
 
-Antes de empezar, recuerda que para poder utilizar `export` o `import` en nuestro código Javascript que se ejecuta directamente en el navegador, debemos cargar el fichero `.js` con la etiqueta y atributo `<script type="module">` para indicarle que utilizaremos módulos. Si no lo hacemos, obtendremos un error.
+Antes de empezar, recuerda que para poder utilizar `export` o `import` en tu código Javascript que se ejecuta directamente en el navegador, debes cargar el fichero `.js` con la etiqueta y atributo `<script type="module">` para indicarle que utilizarás módulos. Si no lo haces, obtendrás un error.
 
 <p align="center"> 
 <img src="./img/error_modulo.png" width="80%" height="60%" style="display: block; margin: 0 auto" />

@@ -120,7 +120,7 @@ El componente `Hello` también imprime en consola el valor del objeto props.
 
 ## Funciones auxiliares
 
-Vamos a expandir nuestro componente `Hello` para que adivine el año de nacimiento de la persona que recibe la bienvenida. La lógica para adivinar el año de nacimiento se divide en su propia función que se llama cuando se representa el componente.
+Vas a expandir tu componente `Hello` para que adivine el año de nacimiento de la persona que recibe la bienvenida. La lógica para adivinar el año de nacimiento se divide en su propia función que se llama cuando se representa el componente.
 
 La edad de la persona no tiene que pasarse como parámetro a la función, ya que puede acceder directamente a todos los props que se pasan al componente.
 
